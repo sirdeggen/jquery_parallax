@@ -13,12 +13,12 @@ Assumes that there is a div somewhere like this:
 ```html
 <style>
   .parallax {
-  height: 400px;
-  width: 100%;
-  background-image: url("SOMEBGIMAGE.jpg");
-  background-position-y: 0%;
-  background-repeat: no-repeat;
-  background-size: cover;
+    height: 400px;
+    width: 100%;
+    background-image: url("SOMEBGIMAGE.jpg");
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 </style>
   
