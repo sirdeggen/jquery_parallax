@@ -7,6 +7,7 @@ $(window).scroll(function() {
       y = ((100 * scroll)/(height + win)) + ((100 * (win - offset))/(height + win));
       if (y > 100){y = 100;}
       else if (y < 0){y = 0;}
+      y = 100 - y;
       var out = String(y) + "%";
       $(".parallax").css("background-position-y", out);
 });
